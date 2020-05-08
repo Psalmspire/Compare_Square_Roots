@@ -49,7 +49,7 @@ namespace CompSqrt.Controllers
             {
                ViewBag.Result = "Please enter a non-negative number";
             }
-            if (firstNumber = "" || secondNumber = "")
+            if ( firstNumber is null || secondNumber is null)
             {
                 ViewBag.Result = "One of the inputs is not a number. Inputs should be numbers."; 
             }

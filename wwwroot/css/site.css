@@ -67,6 +67,7 @@ button {
     margin-top: 100px;
     width: 350px;
     border-radius: 30px;
+    box-shadow: darkgrey;
 }
 
 .btn-con:hover,
@@ -74,10 +75,13 @@ a.proceed:hover {
     background-color: rgb(10, 95, 8);
     color: white !important;
     text-decoration: none;
+    transition: ease-in;
 }
 
 a.proceed {
     color: rgb(10, 95, 8);
+    position: relative;
+    z-index: 1;
 }
 
 a.proceed:link {
@@ -90,15 +94,20 @@ a.proceed:link {
     display: block;
     color: rgb(251, 251, 251);
     padding: 10px 0px 10px 0px;
+    font-weight: bold;
     width: 350px;
     border: none;
 }
 
-input[type="number"]::-moz-focus-outer {
+#button:hover {
+    background-color: rgb(239, 0, 80);
+}
+
+input[type="number"]:invalid {
     border-left: 4px solid red;
 }
 
-input[type="number"]::-moz-focus-outer {
+input[type="number"]:valid {
     border-left: 4px solid green;
 }
 

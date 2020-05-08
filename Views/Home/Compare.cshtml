@@ -23,8 +23,8 @@
 <div class="compare">
     <form  class="form" asp-controller="Home" asp-action="Compare" method="POST" >
 
-        <input type="number" class="input-fields" placeholder="First number" name="firstNumber" required>
-        <input type="number" class="input-fields" placeholder="Second number" name="secondNumber" required>
+        <input type="number" class="input-fields" placeholder="First number" name="firstNumber" pattern=".{1,}" required title="Please input a number">
+        <input type="number" class="input-fields" placeholder="Second number" name="secondNumber" pattern=".{1,}" required title="Please input a number">
         <button type="submit" id="button">Compare</button>
 
     </form>
