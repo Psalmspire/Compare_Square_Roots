@@ -1,0 +1,170 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+
+/* Provide sufficient contrast against white background */
+
+a {
+    color: #0366d6;
+}
+
+.compare {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    display: block;
+    font-size: 16px;
+    color: rgb(22, 22, 22);
+    margin: 20px 0;
+    padding: 10px 10px;
+}
+
+#feedback {
+    color: rgb(0, 160, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 22px
+}
+
+.input-fields {
+    display: block;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    font-size: 11pt;
+    text-align: center;
+    border: 0;
+    border-radius: 5px;
+    height: 40px;
+    width: 350px;
+    transition: 0.25s;
+    outline: none;
+    border: 1px solid #4d1e48;
+}
+
+button {
+    padding: 0;
+    margin: 0;
+}
+
+.btn-con {
+    border: 3px solid rgb(10, 95, 8);
+    display: block;
+    color: rgb(10, 95, 8);
+    padding: 10px 0px 10px 0px;
+    height: 100px;
+    font-size: 36px;
+    margin-top: 100px;
+    width: 350px;
+    border-radius: 30px;
+}
+
+.btn-con:hover,
+a.proceed:hover {
+    background-color: rgb(10, 95, 8);
+    color: white !important;
+    text-decoration: none;
+}
+
+a.proceed {
+    color: rgb(10, 95, 8);
+}
+
+a.proceed:link {
+    color: rgb(10, 95, 8);
+    text-decoration: none;
+}
+
+#button {
+    background-color: rgb(30, 0, 128);
+    display: block;
+    color: rgb(251, 251, 251);
+    padding: 10px 0px 10px 0px;
+    width: 350px;
+    border: none;
+}
+
+input[type="number"]::-moz-focus-outer {
+    border-left: 4px solid red;
+}
+
+input[type="number"]::-moz-focus-outer {
+    border-left: 4px solid green;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+    /* Vertically center the text there */
+}
